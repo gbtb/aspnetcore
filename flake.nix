@@ -33,9 +33,8 @@
         '';
         buildInputs = [ pkgs.curl ];
       };
-      devShell.x86_64-linux = pkgs.mkShell
+      devShell.x86_64-linux = make-shell
         {
-
           pkgs = with pkgs; [
             nodejs-16_x
             curl
