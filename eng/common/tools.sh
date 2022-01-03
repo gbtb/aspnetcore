@@ -1,3 +1,4 @@
+echo HELLO
 #!/usr/bin/env bash
 
 # Initialize variables if they aren't already defined.

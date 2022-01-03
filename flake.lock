@@ -1,0 +1,42 @@
+{
+  "nodes": {
+    "makeShell": {
+      "locked": {
+        "lastModified": 1634940815,
+        "narHash": "sha256-P69OmveboXzS+es1vQGS4bt+ckwbeIExqxfGLjGuJqA=",
+        "owner": "ursi",
+        "repo": "nix-make-shell",
+        "rev": "8add91681170924e4d0591b22f294aee3f5516f9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ursi",
+        "repo": "nix-make-shell",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1641198790,
+        "narHash": "sha256-PcDshBZBpaK9KwXvlS5B5Q6+2x1Nrm4kznzUnYgGvzg=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "f08f8d2ae6c7e77aff6ad2a045e64f46f57d2857",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "makeShell": "makeShell",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

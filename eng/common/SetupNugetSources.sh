@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/nix/store/iqprjr5k5385bhf1dzj07zwd5p43py1n-bash-5.1-p12/bin/bash
 
 # This file is a temporary workaround for internal builds to be able to restore from private AzDO feeds.
 # This file should be removed as part of this issue: https://github.com/dotnet/arcade/issues/4080

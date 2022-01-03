@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/nix/store/iqprjr5k5385bhf1dzj07zwd5p43py1n-bash-5.1-p12/bin/bash
 set -e
 
 if [[ -z "${VERBOSE// }" ]] || [ "$VERBOSE" -ne "$VERBOSE" ] 2>/dev/null; then

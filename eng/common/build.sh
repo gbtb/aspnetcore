@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/nix/store/iqprjr5k5385bhf1dzj07zwd5p43py1n-bash-5.1-p12/bin/bash
 
 # Stop script if unbound variable found (use ${var:-} if intentional)
 set -u
